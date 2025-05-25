@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lost and Found"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/newAd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Advertisement"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/listAds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Item List" />
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show on Map" />
+
+</LinearLayout>
